@@ -1,0 +1,7 @@
+{
+  "name": "iitm-rainfall-platform",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd backend && venv\\Scripts\\activate && python -m uvicorn app.main:app --reload --port 8000\" \"cd frontend && npm run dev\""
+  }
+}
